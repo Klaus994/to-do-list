@@ -1,0 +1,176 @@
+html
+{
+    font-family: 'helvetica neue';
+
+    min-height: 800px;
+
+    background-color: #e4e9fd;
+    background-image: -webkit-linear-gradient(65deg, #c6ebc9 50%, #f0e2d0 50%);
+}
+
+h1
+{
+    padding: 10px;
+
+    color: #fff;
+}
+
+.box
+{
+    max-width: 400px;
+    margin: 50px auto;
+
+    border-radius: 5px;
+    background: white;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, .3);
+}
+
+#heading
+{
+    text-align: center;
+
+    background-color: #70af85;
+}
+
+.item
+{
+    display: flex;
+    align-items: center;
+
+    min-height: 70px;
+
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.item:last-child
+{
+    border-bottom: 0;
+}
+
+input:checked + p
+{
+    text-decoration: line-through;
+
+    text-decoration-color: #70af85;
+}
+
+input[type='checkbox']
+{
+    margin: 20px;
+}
+
+p
+{
+    font-size: 20px;
+    font-weight: 200;
+
+    margin: 0;
+    padding: 20px;
+
+    color: #00204a;
+}
+
+form
+{
+    margin-left: 20px;
+
+    text-align: center;
+}
+
+button
+{
+    font-size: 30px;
+
+    width: 50px;
+    min-height: 50px;
+    padding-bottom: 6px;
+
+    color: #fff;
+    border-width: 0;
+    border-color: transparent;
+    border-radius: 50%;
+    background-color: #70af85;
+}
+.button-div
+{
+    position: absolute;
+    top: 55px;
+    right: 25px;
+}
+.page
+{
+    font-size: 15px;
+
+    width: 75px;
+    min-height: 40px;
+    padding-bottom: 6px;
+
+    color: #fff;
+    border-width: 0;
+    border-color: transparent;
+    border-radius: 10%;
+    background-color: #70af85;
+    box-shadow: 1px 1px 2px grey;
+}
+.page:hover
+{
+    box-shadow: 2px 2px 1px #fff;
+}
+input[type='text']
+{
+    font-size: 20px;
+    font-weight: 200;
+
+    top: 10px;
+
+    width: 313px;
+    height: 60px;
+
+    text-align: center;
+
+    border: none;
+    background: transparent;
+}
+
+input[type='text']:focus
+{
+    outline: none;
+    box-shadow: inset 0 -3px 0 0 #70af85;
+}
+
+::placeholder
+{
+    opacity: 1;
+    color: grey;
+}
+
+footer
+{
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    height: 2.5rem;
+
+    text-align: center;
+}
+footer p
+{
+    opacity: 50%;
+    color: #212121;
+}
+
+a
+{
+    text-decoration: none ;
+
+    color: #fff;
+}
+
+a:hover
+{
+    cursor: pointer;
+    text-decoration: none;
+
+    color: white;
+}
